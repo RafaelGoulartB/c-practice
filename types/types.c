@@ -13,9 +13,8 @@ void main() {
     printf("The character a is in the ASCII table the number %i: %c \n",
            character, character);
 
-    printf("\n");
     // Array
-    printf(" ------------- Array ------------- \n");
+    printf("\n ------------- Array ------------- \n");
     int x[50];
 
     x[0] = 1;
@@ -24,9 +23,8 @@ void main() {
     printf("The first element of the array is %i and the last is %i \n", x[0],
            x[50]);
 
-    printf("\n");
     // Struct
-    printf(" ------------- Struct ------------- \n");
+    printf("\n  ------------- Struct ------------- \n");
     struct Person person1;
 
     person1.name[0] = 'R';
@@ -43,9 +41,8 @@ void main() {
     printf("The name of the person is %s and the age is %i \n", person2.name,
            person2.age);
 
-    printf("\n");
     // Pointers
-    printf(" ------------- Pointers ------------- \n");
+    printf("\n ------------- Pointers ------------- \n");
     int number = 10;
     int *pointer = &number;
 
